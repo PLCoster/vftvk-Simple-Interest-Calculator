@@ -17,3 +17,30 @@ h1 {
   padding: 20px;
   border-radius: 25px;
 }
+
+.formdiv {
+  width: 350px;
+  margin: 20px auto;
+}
+
+.form-input-group {
+  margin-bottom: 15px;
+}
+
+#principal {
+  margin-left: 60px;
+}
+
+#rate {
+  margin-left: 25px;
+  margin-bottom: -5px;
+}
+
+#years {
+  margin-left: 30px;
+}
+
+#compute {
+  display: block;
+  margin-top: 15px;
+}
