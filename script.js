@@ -8,7 +8,7 @@ function compute() {
 
   // Validate principal input value is a positive number:
   // If not alert and focus the principal input
-  if (!principal || parseFloat(principal) <= 0) {
+  if (isNaN(parseFloat(principal)) || parseFloat(principal) <= 0) {
     alert('Enter a positive number');
     document.getElementById('principal').focus();
     return false;
