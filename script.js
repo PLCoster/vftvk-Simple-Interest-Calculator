@@ -36,8 +36,3 @@ function updateRate() {
   const rateval = document.getElementById('rate').value;
   document.getElementById('rate_val').innerText = rateval + '%';
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Ensure the rate value is set appropriately on load
-  document.getElementById('rate').value = '10.25';
-});
